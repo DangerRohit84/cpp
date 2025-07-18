@@ -43,7 +43,7 @@ struct Stack
         if (top == NULL)
         {
             cout << "Stack is empty" << endl;
-            return -1; // or throw exception
+            return -1;
         }
         return top->data;
     }
